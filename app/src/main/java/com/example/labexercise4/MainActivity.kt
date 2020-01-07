@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         val datePicker = DatePickerDialog(this, DatePickerDialog.OnDateSetListener{ view, year, month, day ->
             val cMonth = month +1
             dobSelected.text = "$day-$cMonth-$year"
-
             
             val calAge = xxYear- year
             save = when(calAge){
